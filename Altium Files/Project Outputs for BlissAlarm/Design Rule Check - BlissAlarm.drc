@@ -1,0 +1,538 @@
+Protel Design System Design Rule Check
+PCB File : C:\Users\Public\Documents\Altium\BlissAlarm\BlissAlarm.PcbDoc
+Date     : 10/16/2023
+Time     : 4:49:43 PM
+
+Processing Rule : Clearance Constraint (Gap=5mil) (All),(All)
+   Violation between Clearance Constraint: (2.962mil < 5mil) Between Arc (53.31mil,1746.466mil) on Keep-Out Layer And Region (0 hole(s)) Top Layer 
+Rule Violations :1
+
+Processing Rule : Short-Circuit Constraint (Allowed=No) (All),(All)
+Rule Violations :0
+
+Processing Rule : Un-Routed Net Constraint ( (All) )
+   Violation between Un-Routed Net Constraint: Net 3V3 Between Pad J2-1(610.734mil,1145.012mil) on Multi-Layer And Pad D3-K(642.38mil,1356.97mil) on Top Layer 
+   Violation between Un-Routed Net Constraint: Net SERCOM1_PAD3_SPI_SCK Between Pad JP12-1(1115.634mil,1332.97mil) on Top Layer And Pad U2-12(1216.02mil,1368.063mil) on Top Layer 
+   Violation between Un-Routed Net Constraint: Net USB_FTDI_DATA_4_N Between Pad R1-2(785.096mil,1591.713mil) on Top Layer And Pad U1-1(2001.986mil,1475.384mil) on Top Layer 
+   Violation between Un-Routed Net Constraint: Net USB_FTDI_DATA_4_P Between Pad R2-2(405.033mil,1593.676mil) on Top Layer And Pad U1-12(1879.938mil,1475.384mil) on Top Layer 
+   Violation between Un-Routed Net Constraint: Net GND Between Via (1891.299mil,1216.003mil) from Top Layer to Bottom Layer And Pad R22-1(1910mil,1098.378mil) on Top Layer 
+   Violation between Un-Routed Net Constraint: Net 3V3 Between Pad TP15-1(625.818mil,196.933mil) on Top Layer And Via (934.763mil,211.782mil) from Top Layer to Bottom Layer 
+   Violation between Un-Routed Net Constraint: Net GND Between Pad U3-4(202.257mil,2077.542mil) on Top Layer And Via (239.416mil,2086.235mil) from Top Layer to Bottom Layer 
+   Violation between Un-Routed Net Constraint: Net GND Between Pad U4-2(2084.528mil,1384.834mil) on Top Layer And Pad U4-25(2116.516mil,1303.633mil) on Top Layer 
+   Violation between Un-Routed Net Constraint: Net GND Between Pad U4-5(2025.472mil,1384.834mil) on Top Layer And Pad U4-2(2084.528mil,1384.834mil) on Top Layer 
+   Violation between Un-Routed Net Constraint: Net GND Between Pad U4-6(1993.484mil,1382.373mil) on Top Layer And Pad U4-5(2025.472mil,1384.834mil) on Top Layer 
+   Violation between Un-Routed Net Constraint: Net GND Between Track (1957.334mil,1546.25mil)(1991.782mil,1546.25mil) on Top Layer And Pad U4-6(1993.484mil,1382.373mil) on Top Layer 
+   Violation between Un-Routed Net Constraint: Net VIN Between Pad U5-1(711.22mil,1800.6mil) on Top Layer And Pad U5-8(711.22mil,1875.403mil) on Top Layer 
+   Violation between Un-Routed Net Constraint: Polygon  (NONET_L01_P006) on Top Layer Dead Copper - Net Not Assigned.
+   Violation between Un-Routed Net Constraint: Net 3V3 Between Track (955.679mil,2150mil)(956.703mil,2150mil) on Top Layer And Track (1082.86mil,1602.535mil)(1209.29mil,1602.535mil) on Top Layer 
+   Violation between Un-Routed Net Constraint: Net MCU_LED Between Via (1105.729mil,381.756mil) from Top Layer to Bottom Layer And Track (1105.729mil,394mil)(1115.635mil,403.906mil) on Bottom Layer 
+   Violation between Un-Routed Net Constraint: Net 3V3 Between Via (2310mil,1095.039mil) from Top Layer to Bottom Layer And Track (2310mil,1105.039mil)(2310mil,1147.352mil) on Top Layer 
+   Violation between Un-Routed Net Constraint: Net FLASH_MEM_SPI_C\S\ Between Via (846.964mil,888.498mil) from Top Layer to Bottom Layer And Track (859.514mil,888.498mil)(1104.1mil,888.498mil) on Top Layer 
+Rule Violations :17
+
+Processing Rule : Modified Polygon (Allow modified: No), (Allow shelved: No)
+Rule Violations :0
+
+Processing Rule : Width Constraint (Min=5mil) (Max=1000mil) (Preferred=10mil) (Disabled)(All)
+Rule Violations :0
+
+Processing Rule : Width Constraint (Min=5mil) (Max=50mil) (Preferred=10mil) (All)
+Rule Violations :0
+
+Processing Rule : SMD To Corner (Distance=0mil) (All)
+Rule Violations :0
+
+Processing Rule : SMD To Plane Constraint (Distance=0mil) (All)
+Rule Violations :0
+
+Processing Rule : SMD Neck-Down Constraint (Percent=90%) (All)
+Rule Violations :0
+
+Processing Rule : SMD Neck-Down Constraint (Percent=50%) (InNet('USB_FTDI_DATA_6_P') or InNet('USB_FTDI_DATA_6_N') or InNet('USB_DATA_N') or InNet('USB_DATA_P'))
+   Violation between SMD Neck-Down Constraint: Between Pad C5-1(398.223mil,1527.087mil) on Top Layer And Track (398.223mil,1527.087mil)(400.191mil,1527.087mil) on Top Layer Relative Track Width: 50.80%
+   Violation between SMD Neck-Down Constraint: Between Pad J3-2(187.168mil,1475.906mil) on Top Layer And Track (187.168mil,1475.906mil)(259.324mil,1475.906mil) on Top Layer Relative Track Width: 83.52%
+   Violation between SMD Neck-Down Constraint: Between Pad J3-3(187.168mil,1501.496mil) on Top Layer And Track (187.168mil,1501.496mil)(253.276mil,1501.496mil) on Top Layer Relative Track Width: 83.52%
+Rule Violations :3
+
+Processing Rule : SMD Neck-Down Constraint (Percent=110%) (InNetClass('HIGHCUR'))
+Rule Violations :0
+
+Processing Rule : Power Plane Connect Rule(Relief Connect )(Expansion=20mil) (Conductor Width=10mil) (Air Gap=10mil) (Entries=4) (All)
+Rule Violations :0
+
+Processing Rule : Minimum Annular Ring (Minimum=6mil) (All)
+   Violation between Minimum Annular Ring: (5.904mil < 6mil) Pad J3-S1(73.979mil,1662.913mil) on Multi-Layer (Annular Ring=5.906mil) On (Top Layer)
+   Violation between Minimum Annular Ring: (5.904mil < 6mil) Pad J3-S3(73.979mil,1340.079mil) on Multi-Layer (Annular Ring=5.906mil) On (Top Layer)
+   Violation between Minimum Annular Ring: (5.906mil < 6mil) Via (1013.591mil,2213.742mil) from Top Layer to Bottom Layer (Annular Ring=5.906mil) On (Top Layer)
+   Violation between Minimum Annular Ring: (5.906mil < 6mil) Via (1051.767mil,1557.039mil) from Top Layer to Bottom Layer (Annular Ring=5.906mil) On (Top Layer)
+   Violation between Minimum Annular Ring: (5.906mil < 6mil) Via (1095.729mil,55.277mil) from Top Layer to Bottom Layer (Annular Ring=5.906mil) On (Top Layer)
+   Violation between Minimum Annular Ring: (5.906mil < 6mil) Via (1101.857mil,1389.409mil) from Top Layer to Bottom Layer (Annular Ring=5.906mil) On (Top Layer)
+   Violation between Minimum Annular Ring: (5.906mil < 6mil) Via (1105.729mil,381.756mil) from Top Layer to Bottom Layer (Annular Ring=5.906mil) On (Top Layer)
+   Violation between Minimum Annular Ring: (5.906mil < 6mil) Via (1122.323mil,1513.343mil) from Top Layer to Bottom Layer (Annular Ring=5.906mil) On (Top Layer)
+   Violation between Minimum Annular Ring: (5.906mil < 6mil) Via (1122.323mil,1813.342mil) from Top Layer to Bottom Layer (Annular Ring=5.906mil) On (Top Layer)
+   Violation between Minimum Annular Ring: (5.906mil < 6mil) Via (1134.946mil,849.498mil) from Top Layer to Bottom Layer (Annular Ring=5.906mil) On (Top Layer)
+   Violation between Minimum Annular Ring: (5.906mil < 6mil) Via (1134.946mil,888.498mil) from Top Layer to Bottom Layer (Annular Ring=5.906mil) On (Top Layer)
+   Violation between Minimum Annular Ring: (5.906mil < 6mil) Via (1138.982mil,1131.842mil) from Top Layer to Bottom Layer (Annular Ring=5.906mil) On (Top Layer)
+   Violation between Minimum Annular Ring: (5.906mil < 6mil) Via (1141.795mil,1226.33mil) from Top Layer to Bottom Layer (Annular Ring=5.906mil) On (Top Layer)
+   Violation between Minimum Annular Ring: (5.906mil < 6mil) Via (1144.95mil,990.11mil) from Top Layer to Bottom Layer (Annular Ring=5.906mil) On (Top Layer)
+   Violation between Minimum Annular Ring: (5.906mil < 6mil) Via (1147.49mil,1462.551mil) from Top Layer to Bottom Layer (Annular Ring=5.906mil) On (Top Layer)
+   Violation between Minimum Annular Ring: (5.906mil < 6mil) Via (1147.49mil,619.749mil) from Top Layer to Bottom Layer (Annular Ring=5.906mil) On (Top Layer)
+   Violation between Minimum Annular Ring: (5.906mil < 6mil) Via (1147.49mil,653.74mil) from Top Layer to Bottom Layer (Annular Ring=5.906mil) On (Top Layer)
+   Violation between Minimum Annular Ring: (5.906mil < 6mil) Via (1161.342mil,1179.087mil) from Top Layer to Bottom Layer (Annular Ring=5.906mil) On (Top Layer)
+   Violation between Minimum Annular Ring: (5.906mil < 6mil) Via (119.254mil,2250.847mil) from Top Layer to Bottom Layer (Annular Ring=5.906mil) On (Top Layer)
+   Violation between Minimum Annular Ring: (5.906mil < 6mil) Via (1239.472mil,256.782mil) from Top Layer to Bottom Layer (Annular Ring=5.906mil) On (Top Layer)
+   Violation between Minimum Annular Ring: (5.906mil < 6mil) Via (1240.006mil,874.315mil) from Top Layer to Bottom Layer (Annular Ring=5.906mil) On (Top Layer)
+   Violation between Minimum Annular Ring: (5.906mil < 6mil) Via (125.875mil,2021.693mil) from Top Layer to Bottom Layer (Annular Ring=5.906mil) On (Top Layer)
+   Violation between Minimum Annular Ring: (5.906mil < 6mil) Via (1337.918mil,871.365mil) from Top Layer to Bottom Layer (Annular Ring=5.906mil) On (Top Layer)
+   Violation between Minimum Annular Ring: (5.906mil < 6mil) Via (1378.015mil,1112.715mil) from Top Layer to Bottom Layer (Annular Ring=5.906mil) On (Top Layer)
+   Violation between Minimum Annular Ring: (5.906mil < 6mil) Via (1378.015mil,1152.085mil) from Top Layer to Bottom Layer (Annular Ring=5.906mil) On (Top Layer)
+   Violation between Minimum Annular Ring: (5.906mil < 6mil) Via (1378.015mil,1225.115mil) from Top Layer to Bottom Layer (Annular Ring=5.906mil) On (Top Layer)
+   Violation between Minimum Annular Ring: (5.906mil < 6mil) Via (1378.015mil,1264.485mil) from Top Layer to Bottom Layer (Annular Ring=5.906mil) On (Top Layer)
+   Violation between Minimum Annular Ring: (5.906mil < 6mil) Via (1387.131mil,873mil) from Top Layer to Bottom Layer (Annular Ring=5.906mil) On (Top Layer)
+   Violation between Minimum Annular Ring: (5.906mil < 6mil) Via (1398.889mil,404.714mil) from Top Layer to Bottom Layer (Annular Ring=5.906mil) On (Top Layer)
+   Violation between Minimum Annular Ring: (5.906mil < 6mil) Via (1415.315mil,1620.315mil) from Top Layer to Bottom Layer (Annular Ring=5.906mil) On (Top Layer)
+   Violation between Minimum Annular Ring: (5.906mil < 6mil) Via (1415.315mil,1659.685mil) from Top Layer to Bottom Layer (Annular Ring=5.906mil) On (Top Layer)
+   Violation between Minimum Annular Ring: (5.906mil < 6mil) Via (1415.315mil,1707.615mil) from Top Layer to Bottom Layer (Annular Ring=5.906mil) On (Top Layer)
+   Violation between Minimum Annular Ring: (5.906mil < 6mil) Via (1415.315mil,1746.985mil) from Top Layer to Bottom Layer (Annular Ring=5.906mil) On (Top Layer)
+   Violation between Minimum Annular Ring: (5.906mil < 6mil) Via (1417.385mil,1112.715mil) from Top Layer to Bottom Layer (Annular Ring=5.906mil) On (Top Layer)
+   Violation between Minimum Annular Ring: (5.906mil < 6mil) Via (1417.385mil,1152.085mil) from Top Layer to Bottom Layer (Annular Ring=5.906mil) On (Top Layer)
+   Violation between Minimum Annular Ring: (5.906mil < 6mil) Via (1417.385mil,1225.115mil) from Top Layer to Bottom Layer (Annular Ring=5.906mil) On (Top Layer)
+   Violation between Minimum Annular Ring: (5.906mil < 6mil) Via (1417.385mil,1264.485mil) from Top Layer to Bottom Layer (Annular Ring=5.906mil) On (Top Layer)
+   Violation between Minimum Annular Ring: (5.906mil < 6mil) Via (1432.406mil,600.331mil) from Top Layer to Bottom Layer (Annular Ring=5.906mil) On (Top Layer)
+   Violation between Minimum Annular Ring: (5.906mil < 6mil) Via (1439.197mil,751.414mil) from Top Layer to Bottom Layer (Annular Ring=5.906mil) On (Top Layer)
+   Violation between Minimum Annular Ring: (5.906mil < 6mil) Via (144.783mil,2111mil) from Top Layer to Bottom Layer (Annular Ring=5.906mil) On (Top Layer)
+   Violation between Minimum Annular Ring: (5.906mil < 6mil) Via (1440.28mil,842.915mil) from Top Layer to Bottom Layer (Annular Ring=5.906mil) On (Top Layer)
+   Violation between Minimum Annular Ring: (5.906mil < 6mil) Via (1454.685mil,1620.315mil) from Top Layer to Bottom Layer (Annular Ring=5.906mil) On (Top Layer)
+   Violation between Minimum Annular Ring: (5.906mil < 6mil) Via (1454.685mil,1659.685mil) from Top Layer to Bottom Layer (Annular Ring=5.906mil) On (Top Layer)
+   Violation between Minimum Annular Ring: (5.906mil < 6mil) Via (1454.685mil,1707.615mil) from Top Layer to Bottom Layer (Annular Ring=5.906mil) On (Top Layer)
+   Violation between Minimum Annular Ring: (5.906mil < 6mil) Via (1454.685mil,1746.985mil) from Top Layer to Bottom Layer (Annular Ring=5.906mil) On (Top Layer)
+   Violation between Minimum Annular Ring: (5.906mil < 6mil) Via (147.48mil,1828.605mil) from Top Layer to Bottom Layer (Annular Ring=5.906mil) On (Top Layer)
+   Violation between Minimum Annular Ring: (5.906mil < 6mil) Via (1476.721mil,501.425mil) from Top Layer to Bottom Layer (Annular Ring=5.906mil) On (Top Layer)
+   Violation between Minimum Annular Ring: (5.906mil < 6mil) Via (148.154mil,1793.363mil) from Top Layer to Bottom Layer (Annular Ring=5.906mil) On (Top Layer)
+   Violation between Minimum Annular Ring: (5.906mil < 6mil) Via (1493.115mil,1112.715mil) from Top Layer to Bottom Layer (Annular Ring=5.906mil) On (Top Layer)
+   Violation between Minimum Annular Ring: (5.906mil < 6mil) Via (1493.115mil,1152.085mil) from Top Layer to Bottom Layer (Annular Ring=5.906mil) On (Top Layer)
+   Violation between Minimum Annular Ring: (5.906mil < 6mil) Via (1493.115mil,1225.115mil) from Top Layer to Bottom Layer (Annular Ring=5.906mil) On (Top Layer)
+   Violation between Minimum Annular Ring: (5.906mil < 6mil) Via (1493.115mil,1264.485mil) from Top Layer to Bottom Layer (Annular Ring=5.906mil) On (Top Layer)
+   Violation between Minimum Annular Ring: (5.906mil < 6mil) Via (1499.256mil,462.724mil) from Top Layer to Bottom Layer (Annular Ring=5.906mil) On (Top Layer)
+   Violation between Minimum Annular Ring: (5.906mil < 6mil) Via (1501.215mil,1620.315mil) from Top Layer to Bottom Layer (Annular Ring=5.906mil) On (Top Layer)
+   Violation between Minimum Annular Ring: (5.906mil < 6mil) Via (1501.215mil,1659.685mil) from Top Layer to Bottom Layer (Annular Ring=5.906mil) On (Top Layer)
+   Violation between Minimum Annular Ring: (5.906mil < 6mil) Via (1501.215mil,1707.615mil) from Top Layer to Bottom Layer (Annular Ring=5.906mil) On (Top Layer)
+   Violation between Minimum Annular Ring: (5.906mil < 6mil) Via (1501.215mil,1746.985mil) from Top Layer to Bottom Layer (Annular Ring=5.906mil) On (Top Layer)
+   Violation between Minimum Annular Ring: (5.906mil < 6mil) Via (151.818mil,1730.447mil) from Top Layer to Bottom Layer (Annular Ring=5.906mil) On (Top Layer)
+   Violation between Minimum Annular Ring: (5.906mil < 6mil) Via (1532.485mil,1112.715mil) from Top Layer to Bottom Layer (Annular Ring=5.906mil) On (Top Layer)
+   Violation between Minimum Annular Ring: (5.906mil < 6mil) Via (1532.485mil,1152.085mil) from Top Layer to Bottom Layer (Annular Ring=5.906mil) On (Top Layer)
+   Violation between Minimum Annular Ring: (5.906mil < 6mil) Via (1532.485mil,1225.115mil) from Top Layer to Bottom Layer (Annular Ring=5.906mil) On (Top Layer)
+   Violation between Minimum Annular Ring: (5.906mil < 6mil) Via (1532.485mil,1264.485mil) from Top Layer to Bottom Layer (Annular Ring=5.906mil) On (Top Layer)
+   Violation between Minimum Annular Ring: (5.906mil < 6mil) Via (1539.719mil,211.782mil) from Top Layer to Bottom Layer (Annular Ring=5.906mil) On (Top Layer)
+   Violation between Minimum Annular Ring: (5.906mil < 6mil) Via (1540.585mil,1620.315mil) from Top Layer to Bottom Layer (Annular Ring=5.906mil) On (Top Layer)
+   Violation between Minimum Annular Ring: (5.906mil < 6mil) Via (1540.585mil,1659.685mil) from Top Layer to Bottom Layer (Annular Ring=5.906mil) On (Top Layer)
+   Violation between Minimum Annular Ring: (5.906mil < 6mil) Via (1540.585mil,1707.615mil) from Top Layer to Bottom Layer (Annular Ring=5.906mil) On (Top Layer)
+   Violation between Minimum Annular Ring: (5.906mil < 6mil) Via (1540.585mil,1746.985mil) from Top Layer to Bottom Layer (Annular Ring=5.906mil) On (Top Layer)
+   Violation between Minimum Annular Ring: (5.906mil < 6mil) Via (1562.435mil,837.86mil) from Top Layer to Bottom Layer (Annular Ring=5.906mil) On (Top Layer)
+   Violation between Minimum Annular Ring: (5.906mil < 6mil) Via (1619.431mil,211.782mil) from Top Layer to Bottom Layer (Annular Ring=5.906mil) On (Top Layer)
+   Violation between Minimum Annular Ring: (5.906mil < 6mil) Via (1657.037mil,511.136mil) from Top Layer to Bottom Layer (Annular Ring=5.906mil) On (Top Layer)
+   Violation between Minimum Annular Ring: (5.906mil < 6mil) Via (1686.977mil,1462.551mil) from Top Layer to Bottom Layer (Annular Ring=5.906mil) On (Top Layer)
+   Violation between Minimum Annular Ring: (5.906mil < 6mil) Via (1686.977mil,1696.13mil) from Top Layer to Bottom Layer (Annular Ring=5.906mil) On (Top Layer)
+   Violation between Minimum Annular Ring: (5.906mil < 6mil) Via (1694.591mil,1885.104mil) from Top Layer to Bottom Layer (Annular Ring=5.906mil) On (Top Layer)
+   Violation between Minimum Annular Ring: (5.906mil < 6mil) Via (1701.876mil,1413.823mil) from Top Layer to Bottom Layer (Annular Ring=5.906mil) On (Top Layer)
+   Violation between Minimum Annular Ring: (5.906mil < 6mil) Via (1702.212mil,633.504mil) from Top Layer to Bottom Layer (Annular Ring=5.906mil) On (Top Layer)
+   Violation between Minimum Annular Ring: (5.906mil < 6mil) Via (178.659mil,2161.215mil) from Top Layer to Bottom Layer (Annular Ring=5.906mil) On (Top Layer)
+   Violation between Minimum Annular Ring: (5.906mil < 6mil) Via (1804.45mil,1511.343mil) from Top Layer to Bottom Layer (Annular Ring=5.906mil) On (Top Layer)
+   Violation between Minimum Annular Ring: (5.906mil < 6mil) Via (1805.637mil,1346.859mil) from Top Layer to Bottom Layer (Annular Ring=5.906mil) On (Top Layer)
+   Violation between Minimum Annular Ring: (5.906mil < 6mil) Via (1805.637mil,1566.294mil) from Top Layer to Bottom Layer (Annular Ring=5.906mil) On (Top Layer)
+   Violation between Minimum Annular Ring: (5.906mil < 6mil) Via (1805mil,1226.33mil) from Top Layer to Bottom Layer (Annular Ring=5.906mil) On (Top Layer)
+   Violation between Minimum Annular Ring: (5.906mil < 6mil) Via (1805mil,975mil) from Top Layer to Bottom Layer (Annular Ring=5.906mil) On (Top Layer)
+   Violation between Minimum Annular Ring: (5.906mil < 6mil) Via (1806.488mil,1702.765mil) from Top Layer to Bottom Layer (Annular Ring=5.906mil) On (Top Layer)
+   Violation between Minimum Annular Ring: (5.906mil < 6mil) Via (1810.331mil,1878.348mil) from Top Layer to Bottom Layer (Annular Ring=5.906mil) On (Top Layer)
+   Violation between Minimum Annular Ring: (5.906mil < 6mil) Via (1832.669mil,1540.048mil) from Top Layer to Bottom Layer (Annular Ring=5.906mil) On (Top Layer)
+   Violation between Minimum Annular Ring: (5.906mil < 6mil) Via (1833.761mil,1186.352mil) from Top Layer to Bottom Layer (Annular Ring=5.906mil) On (Top Layer)
+   Violation between Minimum Annular Ring: (5.906mil < 6mil) Via (1833.761mil,1602.535mil) from Top Layer to Bottom Layer (Annular Ring=5.906mil) On (Top Layer)
+   Violation between Minimum Annular Ring: (5.906mil < 6mil) Via (1846.005mil,1498.515mil) from Top Layer to Bottom Layer (Annular Ring=5.906mil) On (Top Layer)
+   Violation between Minimum Annular Ring: (5.906mil < 6mil) Via (1851.26mil,1564.291mil) from Top Layer to Bottom Layer (Annular Ring=5.906mil) On (Top Layer)
+   Violation between Minimum Annular Ring: (5.906mil < 6mil) Via (1875mil,838.498mil) from Top Layer to Bottom Layer (Annular Ring=5.906mil) On (Top Layer)
+   Violation between Minimum Annular Ring: (5.906mil < 6mil) Via (1876.799mil,609.921mil) from Top Layer to Bottom Layer (Annular Ring=5.906mil) On (Top Layer)
+   Violation between Minimum Annular Ring: (5.906mil < 6mil) Via (1885.316mil,652.331mil) from Top Layer to Bottom Layer (Annular Ring=5.906mil) On (Top Layer)
+   Violation between Minimum Annular Ring: (5.906mil < 6mil) Via (1891.299mil,1216.003mil) from Top Layer to Bottom Layer (Annular Ring=5.906mil) On (Top Layer)
+   Violation between Minimum Annular Ring: (5.906mil < 6mil) Via (1899.154mil,1424.817mil) from Top Layer to Bottom Layer (Annular Ring=5.906mil) On (Top Layer)
+   Violation between Minimum Annular Ring: (5.906mil < 6mil) Via (1907.929mil,861mil) from Top Layer to Bottom Layer (Annular Ring=5.906mil) On (Top Layer)
+   Violation between Minimum Annular Ring: (5.906mil < 6mil) Via (1922.929mil,1223.405mil) from Top Layer to Bottom Layer (Annular Ring=5.906mil) On (Top Layer)
+   Violation between Minimum Annular Ring: (5.906mil < 6mil) Via (1930.322mil,395.006mil) from Top Layer to Bottom Layer (Annular Ring=5.906mil) On (Top Layer)
+   Violation between Minimum Annular Ring: (5.906mil < 6mil) Via (1935.429mil,1792.222mil) from Top Layer to Bottom Layer (Annular Ring=5.906mil) On (Top Layer)
+   Violation between Minimum Annular Ring: (5.906mil < 6mil) Via (1947.929mil,653mil) from Top Layer to Bottom Layer (Annular Ring=5.906mil) On (Top Layer)
+   Violation between Minimum Annular Ring: (5.906mil < 6mil) Via (1948.903mil,1037.354mil) from Top Layer to Bottom Layer (Annular Ring=5.906mil) On (Top Layer)
+   Violation between Minimum Annular Ring: (5.906mil < 6mil) Via (1957.57mil,863.803mil) from Top Layer to Bottom Layer (Annular Ring=5.906mil) On (Top Layer)
+   Violation between Minimum Annular Ring: (5.906mil < 6mil) Via (1962.283mil,1152.085mil) from Top Layer to Bottom Layer (Annular Ring=5.906mil) On (Top Layer)
+   Violation between Minimum Annular Ring: (5.906mil < 6mil) Via (2003.903mil,1780.866mil) from Top Layer to Bottom Layer (Annular Ring=5.906mil) On (Top Layer)
+   Violation between Minimum Annular Ring: (5.906mil < 6mil) Via (2004.578mil,1835.618mil) from Top Layer to Bottom Layer (Annular Ring=5.906mil) On (Top Layer)
+   Violation between Minimum Annular Ring: (5.906mil < 6mil) Via (2006.261mil,1890.447mil) from Top Layer to Bottom Layer (Annular Ring=5.906mil) On (Top Layer)
+   Violation between Minimum Annular Ring: (5.906mil < 6mil) Via (2025.472mil,1856.695mil) from Top Layer to Bottom Layer (Annular Ring=5.906mil) On (Top Layer)
+   Violation between Minimum Annular Ring: (5.906mil < 6mil) Via (2036.952mil,1540.048mil) from Top Layer to Bottom Layer (Annular Ring=5.906mil) On (Top Layer)
+   Violation between Minimum Annular Ring: (5.906mil < 6mil) Via (2036.952mil,1796.196mil) from Top Layer to Bottom Layer (Annular Ring=5.906mil) On (Top Layer)
+   Violation between Minimum Annular Ring: (5.906mil < 6mil) Via (2044.215mil,1566.294mil) from Top Layer to Bottom Layer (Annular Ring=5.906mil) On (Top Layer)
+   Violation between Minimum Annular Ring: (5.906mil < 6mil) Via (2046.666mil,1513.1mil) from Top Layer to Bottom Layer (Annular Ring=5.906mil) On (Top Layer)
+   Violation between Minimum Annular Ring: (5.906mil < 6mil) Via (2061.557mil,1602.21mil) from Top Layer to Bottom Layer (Annular Ring=5.906mil) On (Top Layer)
+   Violation between Minimum Annular Ring: (5.906mil < 6mil) Via (2063.578mil,2249.272mil) from Top Layer to Bottom Layer (Annular Ring=5.906mil) On (Top Layer)
+   Violation between Minimum Annular Ring: (5.906mil < 6mil) Via (2065.434mil,1495.358mil) from Top Layer to Bottom Layer (Annular Ring=5.906mil) On (Top Layer)
+   Violation between Minimum Annular Ring: (5.906mil < 6mil) Via (2067.778mil,1632.185mil) from Top Layer to Bottom Layer (Annular Ring=5.906mil) On (Top Layer)
+   Violation between Minimum Annular Ring: (5.906mil < 6mil) Via (2087.106mil,1679.748mil) from Top Layer to Bottom Layer (Annular Ring=5.906mil) On (Top Layer)
+   Violation between Minimum Annular Ring: (5.906mil < 6mil) Via (2112.516mil,608.315mil) from Top Layer to Bottom Layer (Annular Ring=5.906mil) On (Top Layer)
+   Violation between Minimum Annular Ring: (5.906mil < 6mil) Via (2114.484mil,847.999mil) from Top Layer to Bottom Layer (Annular Ring=5.906mil) On (Top Layer)
+   Violation between Minimum Annular Ring: (5.906mil < 6mil) Via (2122.57mil,1966.653mil) from Top Layer to Bottom Layer (Annular Ring=5.906mil) On (Top Layer)
+   Violation between Minimum Annular Ring: (5.906mil < 6mil) Via (2133.98mil,1453.112mil) from Top Layer to Bottom Layer (Annular Ring=5.906mil) On (Top Layer)
+   Violation between Minimum Annular Ring: (5.906mil < 6mil) Via (2135.216mil,570.038mil) from Top Layer to Bottom Layer (Annular Ring=5.906mil) On (Top Layer)
+   Violation between Minimum Annular Ring: (5.906mil < 6mil) Via (2136.516mil,428.038mil) from Top Layer to Bottom Layer (Annular Ring=5.906mil) On (Top Layer)
+   Violation between Minimum Annular Ring: (5.906mil < 6mil) Via (2165mil,1303.633mil) from Top Layer to Bottom Layer (Annular Ring=5.906mil) On (Top Layer)
+   Violation between Minimum Annular Ring: (5.906mil < 6mil) Via (2166.774mil,1013.504mil) from Top Layer to Bottom Layer (Annular Ring=5.906mil) On (Top Layer)
+   Violation between Minimum Annular Ring: (5.906mil < 6mil) Via (2174.14mil,387.245mil) from Top Layer to Bottom Layer (Annular Ring=5.906mil) On (Top Layer)
+   Violation between Minimum Annular Ring: (5.906mil < 6mil) Via (2177.728mil,1983.016mil) from Top Layer to Bottom Layer (Annular Ring=5.906mil) On (Top Layer)
+   Violation between Minimum Annular Ring: (5.906mil < 6mil) Via (2182.755mil,733.346mil) from Top Layer to Bottom Layer (Annular Ring=5.906mil) On (Top Layer)
+   Violation between Minimum Annular Ring: (5.906mil < 6mil) Via (2185mil,1420mil) from Top Layer to Bottom Layer (Annular Ring=5.906mil) On (Top Layer)
+   Violation between Minimum Annular Ring: (5.906mil < 6mil) Via (2186.245mil,394.415mil) from Top Layer to Bottom Layer (Annular Ring=5.906mil) On (Top Layer)
+   Violation between Minimum Annular Ring: (5.906mil < 6mil) Via (2199.193mil,1629.903mil) from Top Layer to Bottom Layer (Annular Ring=5.906mil) On (Top Layer)
+   Violation between Minimum Annular Ring: (5.906mil < 6mil) Via (2231.102mil,1078.465mil) from Top Layer to Bottom Layer (Annular Ring=5.906mil) On (Top Layer)
+   Violation between Minimum Annular Ring: (5.906mil < 6mil) Via (2238.405mil,1248.214mil) from Top Layer to Bottom Layer (Annular Ring=5.906mil) On (Top Layer)
+   Violation between Minimum Annular Ring: (5.906mil < 6mil) Via (2238.405mil,471.425mil) from Top Layer to Bottom Layer (Annular Ring=5.906mil) On (Top Layer)
+   Violation between Minimum Annular Ring: (5.906mil < 6mil) Via (2258.405mil,491.425mil) from Top Layer to Bottom Layer (Annular Ring=5.906mil) On (Top Layer)
+   Violation between Minimum Annular Ring: (5.906mil < 6mil) Via (2265.905mil,1915.75mil) from Top Layer to Bottom Layer (Annular Ring=5.906mil) On (Top Layer)
+   Violation between Minimum Annular Ring: (5.906mil < 6mil) Via (2310mil,1095.039mil) from Top Layer to Bottom Layer (Annular Ring=5.906mil) On (Top Layer)
+   Violation between Minimum Annular Ring: (5.906mil < 6mil) Via (2310mil,1415.306mil) from Top Layer to Bottom Layer (Annular Ring=5.906mil) On (Top Layer)
+   Violation between Minimum Annular Ring: (5.906mil < 6mil) Via (2310mil,1875.424mil) from Top Layer to Bottom Layer (Annular Ring=5.906mil) On (Top Layer)
+   Violation between Minimum Annular Ring: (5.906mil < 6mil) Via (2320mil,2150mil) from Top Layer to Bottom Layer (Annular Ring=5.906mil) On (Top Layer)
+   Violation between Minimum Annular Ring: (5.906mil < 6mil) Via (2328mil,719.562mil) from Top Layer to Bottom Layer (Annular Ring=5.906mil) On (Top Layer)
+   Violation between Minimum Annular Ring: (5.906mil < 6mil) Via (2330mil,1662mil) from Top Layer to Bottom Layer (Annular Ring=5.906mil) On (Top Layer)
+   Violation between Minimum Annular Ring: (5.906mil < 6mil) Via (239.416mil,2086.235mil) from Top Layer to Bottom Layer (Annular Ring=5.906mil) On (Top Layer)
+   Violation between Minimum Annular Ring: (5.906mil < 6mil) Via (239.416mil,2127.905mil) from Top Layer to Bottom Layer (Annular Ring=5.906mil) On (Top Layer)
+   Violation between Minimum Annular Ring: (5.906mil < 6mil) Via (246.468mil,1552.677mil) from Top Layer to Bottom Layer (Annular Ring=5.906mil) On (Top Layer)
+   Violation between Minimum Annular Ring: (5.906mil < 6mil) Via (246.468mil,1992.275mil) from Top Layer to Bottom Layer (Annular Ring=5.906mil) On (Top Layer)
+   Violation between Minimum Annular Ring: (5.906mil < 6mil) Via (251.144mil,732.48mil) from Top Layer to Bottom Layer (Annular Ring=5.906mil) On (Top Layer)
+   Violation between Minimum Annular Ring: (5.906mil < 6mil) Via (260.251mil,2107.07mil) from Top Layer to Bottom Layer (Annular Ring=5.906mil) On (Top Layer)
+   Violation between Minimum Annular Ring: (5.906mil < 6mil) Via (266.997mil,1552.677mil) from Top Layer to Bottom Layer (Annular Ring=5.906mil) On (Top Layer)
+   Violation between Minimum Annular Ring: (5.906mil < 6mil) Via (266.997mil,1773.83mil) from Top Layer to Bottom Layer (Annular Ring=5.906mil) On (Top Layer)
+   Violation between Minimum Annular Ring: (5.906mil < 6mil) Via (270.463mil,1816.348mil) from Top Layer to Bottom Layer (Annular Ring=5.906mil) On (Top Layer)
+   Violation between Minimum Annular Ring: (5.906mil < 6mil) Via (28.821mil,2084.754mil) from Top Layer to Bottom Layer (Annular Ring=5.906mil) On (Top Layer)
+   Violation between Minimum Annular Ring: (5.906mil < 6mil) Via (281.086mil,2086.235mil) from Top Layer to Bottom Layer (Annular Ring=5.906mil) On (Top Layer)
+   Violation between Minimum Annular Ring: (5.906mil < 6mil) Via (281.086mil,2127.905mil) from Top Layer to Bottom Layer (Annular Ring=5.906mil) On (Top Layer)
+   Violation between Minimum Annular Ring: (5.906mil < 6mil) Via (287.288mil,281.457mil) from Top Layer to Bottom Layer (Annular Ring=5.906mil) On (Top Layer)
+   Violation between Minimum Annular Ring: (5.906mil < 6mil) Via (293.669mil,732.48mil) from Top Layer to Bottom Layer (Annular Ring=5.906mil) On (Top Layer)
+   Violation between Minimum Annular Ring: (5.906mil < 6mil) Via (334.488mil,1120mil) from Top Layer to Bottom Layer (Annular Ring=5.906mil) On (Top Layer)
+   Violation between Minimum Annular Ring: (5.906mil < 6mil) Via (337.454mil,281.457mil) from Top Layer to Bottom Layer (Annular Ring=5.906mil) On (Top Layer)
+   Violation between Minimum Annular Ring: (5.906mil < 6mil) Via (340.381mil,732.48mil) from Top Layer to Bottom Layer (Annular Ring=5.906mil) On (Top Layer)
+   Violation between Minimum Annular Ring: (5.906mil < 6mil) Via (355.797mil,1120.934mil) from Top Layer to Bottom Layer (Annular Ring=5.906mil) On (Top Layer)
+   Violation between Minimum Annular Ring: (5.906mil < 6mil) Via (358.716mil,2274.497mil) from Top Layer to Bottom Layer (Annular Ring=5.906mil) On (Top Layer)
+   Violation between Minimum Annular Ring: (5.906mil < 6mil) Via (385.191mil,1474.406mil) from Top Layer to Bottom Layer (Annular Ring=5.906mil) On (Top Layer)
+   Violation between Minimum Annular Ring: (5.906mil < 6mil) Via (391.833mil,281.457mil) from Top Layer to Bottom Layer (Annular Ring=5.906mil) On (Top Layer)
+   Violation between Minimum Annular Ring: (5.906mil < 6mil) Via (405.033mil,1060.775mil) from Top Layer to Bottom Layer (Annular Ring=5.906mil) On (Top Layer)
+   Violation between Minimum Annular Ring: (5.906mil < 6mil) Via (427.346mil,1324.819mil) from Top Layer to Bottom Layer (Annular Ring=5.906mil) On (Top Layer)
+   Violation between Minimum Annular Ring: (5.906mil < 6mil) Via (449.972mil,1273.575mil) from Top Layer to Bottom Layer (Annular Ring=5.906mil) On (Top Layer)
+   Violation between Minimum Annular Ring: (5.906mil < 6mil) Via (465.841mil,1784.99mil) from Top Layer to Bottom Layer (Annular Ring=5.906mil) On (Top Layer)
+   Violation between Minimum Annular Ring: (5.906mil < 6mil) Via (466.669mil,1587.126mil) from Top Layer to Bottom Layer (Annular Ring=5.906mil) On (Top Layer)
+   Violation between Minimum Annular Ring: (5.906mil < 6mil) Via (476.669mil,2252.559mil) from Top Layer to Bottom Layer (Annular Ring=5.906mil) On (Top Layer)
+   Violation between Minimum Annular Ring: (5.906mil < 6mil) Via (480.092mil,2223.612mil) from Top Layer to Bottom Layer (Annular Ring=5.906mil) On (Top Layer)
+   Violation between Minimum Annular Ring: (5.906mil < 6mil) Via (500.133mil,2261.26mil) from Top Layer to Bottom Layer (Annular Ring=5.906mil) On (Top Layer)
+   Violation between Minimum Annular Ring: (5.906mil < 6mil) Via (503.305mil,1112.715mil) from Top Layer to Bottom Layer (Annular Ring=5.906mil) On (Top Layer)
+   Violation between Minimum Annular Ring: (5.906mil < 6mil) Via (527.694mil,1045.012mil) from Top Layer to Bottom Layer (Annular Ring=5.906mil) On (Top Layer)
+   Violation between Minimum Annular Ring: (5.906mil < 6mil) Via (541.628mil,1110.76mil) from Top Layer to Bottom Layer (Annular Ring=5.906mil) On (Top Layer)
+   Violation between Minimum Annular Ring: (5.906mil < 6mil) Via (562.573mil,1534.584mil) from Top Layer to Bottom Layer (Annular Ring=5.906mil) On (Top Layer)
+   Violation between Minimum Annular Ring: (5.906mil < 6mil) Via (565.421mil,1389.784mil) from Top Layer to Bottom Layer (Annular Ring=5.906mil) On (Top Layer)
+   Violation between Minimum Annular Ring: (5.906mil < 6mil) Via (57.59mil,2046.057mil) from Top Layer to Bottom Layer (Annular Ring=5.906mil) On (Top Layer)
+   Violation between Minimum Annular Ring: (5.906mil < 6mil) Via (590.472mil,1752.74mil) from Top Layer to Bottom Layer (Annular Ring=5.906mil) On (Top Layer)
+   Violation between Minimum Annular Ring: (5.906mil < 6mil) Via (590.472mil,1786.358mil) from Top Layer to Bottom Layer (Annular Ring=5.906mil) On (Top Layer)
+   Violation between Minimum Annular Ring: (5.906mil < 6mil) Via (623.472mil,1753.74mil) from Top Layer to Bottom Layer (Annular Ring=5.906mil) On (Top Layer)
+   Violation between Minimum Annular Ring: (5.906mil < 6mil) Via (623.946mil,648.031mil) from Top Layer to Bottom Layer (Annular Ring=5.906mil) On (Top Layer)
+   Violation between Minimum Annular Ring: (5.906mil < 6mil) Via (634.279mil,1876.683mil) from Top Layer to Bottom Layer (Annular Ring=5.906mil) On (Top Layer)
+   Violation between Minimum Annular Ring: (5.906mil < 6mil) Via (645.982mil,1554.587mil) from Top Layer to Bottom Layer (Annular Ring=5.906mil) On (Top Layer)
+   Violation between Minimum Annular Ring: (5.906mil < 6mil) Via (653.318mil,441.55mil) from Top Layer to Bottom Layer (Annular Ring=5.906mil) On (Top Layer)
+   Violation between Minimum Annular Ring: (5.906mil < 6mil) Via (653.318mil,611.441mil) from Top Layer to Bottom Layer (Annular Ring=5.906mil) On (Top Layer)
+   Violation between Minimum Annular Ring: (5.906mil < 6mil) Via (66.105mil,1396.988mil) from Top Layer to Bottom Layer (Annular Ring=5.906mil) On (Top Layer)
+   Violation between Minimum Annular Ring: (5.906mil < 6mil) Via (66.105mil,1419.803mil) from Top Layer to Bottom Layer (Annular Ring=5.906mil) On (Top Layer)
+   Violation between Minimum Annular Ring: (5.906mil < 6mil) Via (685.35mil,2312.097mil) from Top Layer to Bottom Layer (Annular Ring=5.906mil) On (Top Layer)
+   Violation between Minimum Annular Ring: (5.906mil < 6mil) Via (690.776mil,645.681mil) from Top Layer to Bottom Layer (Annular Ring=5.906mil) On (Top Layer)
+   Violation between Minimum Annular Ring: (5.906mil < 6mil) Via (712.85mil,1554.587mil) from Top Layer to Bottom Layer (Annular Ring=5.906mil) On (Top Layer)
+   Violation between Minimum Annular Ring: (5.906mil < 6mil) Via (714.12mil,1495.825mil) from Top Layer to Bottom Layer (Annular Ring=5.906mil) On (Top Layer)
+   Violation between Minimum Annular Ring: (5.906mil < 6mil) Via (720.347mil,635.839mil) from Top Layer to Bottom Layer (Annular Ring=5.906mil) On (Top Layer)
+   Violation between Minimum Annular Ring: (5.906mil < 6mil) Via (725mil,1838.002mil) from Top Layer to Bottom Layer (Annular Ring=5.906mil) On (Top Layer)
+   Violation between Minimum Annular Ring: (5.906mil < 6mil) Via (73.979mil,1603.386mil) from Top Layer to Bottom Layer (Annular Ring=5.906mil) On (Top Layer)
+   Violation between Minimum Annular Ring: (5.906mil < 6mil) Via (734.62mil,336.478mil) from Top Layer to Bottom Layer (Annular Ring=5.906mil) On (Top Layer)
+   Violation between Minimum Annular Ring: (5.906mil < 6mil) Via (74.294mil,1579.252mil) from Top Layer to Bottom Layer (Annular Ring=5.906mil) On (Top Layer)
+   Violation between Minimum Annular Ring: (5.906mil < 6mil) Via (750.591mil,2008.253mil) from Top Layer to Bottom Layer (Annular Ring=5.906mil) On (Top Layer)
+   Violation between Minimum Annular Ring: (5.906mil < 6mil) Via (756.496mil,1838.002mil) from Top Layer to Bottom Layer (Annular Ring=5.906mil) On (Top Layer)
+   Violation between Minimum Annular Ring: (5.906mil < 6mil) Via (792.633mil,538.898mil) from Top Layer to Bottom Layer (Annular Ring=5.906mil) On (Top Layer)
+   Violation between Minimum Annular Ring: (5.906mil < 6mil) Via (792.633mil,748.898mil) from Top Layer to Bottom Layer (Annular Ring=5.906mil) On (Top Layer)
+   Violation between Minimum Annular Ring: (5.906mil < 6mil) Via (810.659mil,1847mil) from Top Layer to Bottom Layer (Annular Ring=5.906mil) On (Top Layer)
+   Violation between Minimum Annular Ring: (5.906mil < 6mil) Via (829.659mil,1819.301mil) from Top Layer to Bottom Layer (Annular Ring=5.906mil) On (Top Layer)
+   Violation between Minimum Annular Ring: (5.906mil < 6mil) Via (843.11mil,1848.447mil) from Top Layer to Bottom Layer (Annular Ring=5.906mil) On (Top Layer)
+   Violation between Minimum Annular Ring: (5.906mil < 6mil) Via (846.964mil,888.498mil) from Top Layer to Bottom Layer (Annular Ring=5.906mil) On (Top Layer)
+   Violation between Minimum Annular Ring: (5.906mil < 6mil) Via (862.712mil,200.715mil) from Top Layer to Bottom Layer (Annular Ring=5.906mil) On (Top Layer)
+   Violation between Minimum Annular Ring: (5.906mil < 6mil) Via (862.712mil,593.701mil) from Top Layer to Bottom Layer (Annular Ring=5.906mil) On (Top Layer)
+   Violation between Minimum Annular Ring: (5.906mil < 6mil) Via (865.038mil,1821.331mil) from Top Layer to Bottom Layer (Annular Ring=5.906mil) On (Top Layer)
+   Violation between Minimum Annular Ring: (5.906mil < 6mil) Via (870.21mil,674.256mil) from Top Layer to Bottom Layer (Annular Ring=5.906mil) On (Top Layer)
+   Violation between Minimum Annular Ring: (5.906mil < 6mil) Via (872.108mil,1327.618mil) from Top Layer to Bottom Layer (Annular Ring=5.906mil) On (Top Layer)
+   Violation between Minimum Annular Ring: (5.906mil < 6mil) Via (886.742mil,568.243mil) from Top Layer to Bottom Layer (Annular Ring=5.906mil) On (Top Layer)
+   Violation between Minimum Annular Ring: (5.906mil < 6mil) Via (886.742mil,634.055mil) from Top Layer to Bottom Layer (Annular Ring=5.906mil) On (Top Layer)
+   Violation between Minimum Annular Ring: (5.906mil < 6mil) Via (886.951mil,1846.555mil) from Top Layer to Bottom Layer (Annular Ring=5.906mil) On (Top Layer)
+   Violation between Minimum Annular Ring: (5.906mil < 6mil) Via (90.59mil,2264.444mil) from Top Layer to Bottom Layer (Annular Ring=5.906mil) On (Top Layer)
+   Violation between Minimum Annular Ring: (5.906mil < 6mil) Via (910.821mil,1962.498mil) from Top Layer to Bottom Layer (Annular Ring=5.906mil) On (Top Layer)
+   Violation between Minimum Annular Ring: (5.906mil < 6mil) Via (934.763mil,211.782mil) from Top Layer to Bottom Layer (Annular Ring=5.906mil) On (Top Layer)
+   Violation between Minimum Annular Ring: (5.906mil < 6mil) Via (950.173mil,482.585mil) from Top Layer to Bottom Layer (Annular Ring=5.906mil) On (Top Layer)
+   Violation between Minimum Annular Ring: (5.906mil < 6mil) Via (950.892mil,1616.498mil) from Top Layer to Bottom Layer (Annular Ring=5.906mil) On (Top Layer)
+   Violation between Minimum Annular Ring: (5.906mil < 6mil) Via (979.679mil,2180.715mil) from Top Layer to Bottom Layer (Annular Ring=5.906mil) On (Top Layer)
+   Violation between Minimum Annular Ring: (5.906mil < 6mil) Via (992.151mil,758.831mil) from Top Layer to Bottom Layer (Annular Ring=5.906mil) On (Top Layer)
+   Violation between Minimum Annular Ring: (5.906mil < 6mil) Via (994.81mil,636.13mil) from Top Layer to Bottom Layer (Annular Ring=5.906mil) On (Top Layer)
+Rule Violations :217
+
+Processing Rule : Acute Angle Constraint [Tracks Only] (Minimum=60.000) (All)
+   Violation between Acute Angle Constraint: (12.152 < 60.000) Between Track (260.251mil,2107.07mil)(281.086mil,2086.235mil) on Top Layer And Track (270.094mil,2107.07mil)(270.094mil,2165.064mil) on Top Layer (Angle = 12.152)
+   Violation between Acute Angle Constraint: (45.000 < 60.000) Between Track (476.101mil,2261.26mil)(500.133mil,2261.26mil) on Top Layer And Track (478.381mil,2225.324mil)(478.381mil,2250.847mil) on Top Layer (Angle = 45.000)
+   Violation between Acute Angle Constraint: (56.250 < 60.000) Between Track (1355mil,589.498mil)(1363.305mil,581.192mil) on Top Layer And Track (1363.305mil,566.371mil)(1363.305mil,581.192mil) on Top Layer (Angle = 56.250)
+   Violation between Acute Angle Constraint: (50.905 < 60.000) Between Track (1607.913mil,458.136mil)(1619.826mil,458.136mil) on Top Layer And Track (1615.73mil,462.724mil)(1634.431mil,481.425mil) on Top Layer (Angle = 50.905)
+   Violation between Acute Angle Constraint: (49.037 < 60.000) Between Track (1882.375mil,773.557mil)(1892.5mil,783.682mil) on Top Layer And Track (1882.806mil,773.125mil)(1964.006mil,773.125mil) on Top Layer (Angle = 49.037)
+   Violation between Acute Angle Constraint: (56.593 < 60.000) Between Track (1942.098mil,1602.372mil)(1948.903mil,1609.177mil) on Top Layer And Track (1942.098mil,1602.372mil)(2061.395mil,1602.372mil) on Top Layer (Angle = 56.593)
+   Violation between Acute Angle Constraint: (45.000 < 60.000) Between Track (119.254mil,1717.226mil)(119.254mil,1822.958mil) on Bottom Layer And Track (119.254mil,1822.958mil)(148.154mil,1794.059mil) on Bottom Layer (Angle = 45.000)
+   Violation between Acute Angle Constraint: (45.000 < 60.000) Between Track (119.254mil,2047.913mil)(119.254mil,2250.847mil) on Bottom Layer And Track (74.294mil,2205.887mil)(119.254mil,2250.847mil) on Bottom Layer (Angle = 45.000)
+Rule Violations :8
+
+Processing Rule : Hole Size Constraint (Min=10mil) (Max=150mil) (All)
+   Violation between Hole Size Constraint: (7.874mil < 10mil) Via (1013.591mil,2213.742mil) from Top Layer to Bottom Layer Actual Hole Size = 7.874mil
+   Violation between Hole Size Constraint: (7.874mil < 10mil) Via (1095.729mil,55.277mil) from Top Layer to Bottom Layer Actual Hole Size = 7.874mil
+   Violation between Hole Size Constraint: (7.874mil < 10mil) Via (1101.857mil,1389.409mil) from Top Layer to Bottom Layer Actual Hole Size = 7.874mil
+   Violation between Hole Size Constraint: (7.874mil < 10mil) Via (1105.729mil,381.756mil) from Top Layer to Bottom Layer Actual Hole Size = 7.874mil
+   Violation between Hole Size Constraint: (7.874mil < 10mil) Via (1122.323mil,1513.343mil) from Top Layer to Bottom Layer Actual Hole Size = 7.874mil
+   Violation between Hole Size Constraint: (7.874mil < 10mil) Via (1122.323mil,1813.342mil) from Top Layer to Bottom Layer Actual Hole Size = 7.874mil
+   Violation between Hole Size Constraint: (7.874mil < 10mil) Via (1138.982mil,1131.842mil) from Top Layer to Bottom Layer Actual Hole Size = 7.874mil
+   Violation between Hole Size Constraint: (7.874mil < 10mil) Via (1147.49mil,1462.551mil) from Top Layer to Bottom Layer Actual Hole Size = 7.874mil
+   Violation between Hole Size Constraint: (7.874mil < 10mil) Via (1161.342mil,1179.087mil) from Top Layer to Bottom Layer Actual Hole Size = 7.874mil
+   Violation between Hole Size Constraint: (7.874mil < 10mil) Via (1239.472mil,256.782mil) from Top Layer to Bottom Layer Actual Hole Size = 7.874mil
+   Violation between Hole Size Constraint: (7.874mil < 10mil) Via (1240.006mil,874.315mil) from Top Layer to Bottom Layer Actual Hole Size = 7.874mil
+   Violation between Hole Size Constraint: (7.874mil < 10mil) Via (125.875mil,2021.693mil) from Top Layer to Bottom Layer Actual Hole Size = 7.874mil
+   Violation between Hole Size Constraint: (7.874mil < 10mil) Via (1337.918mil,871.365mil) from Top Layer to Bottom Layer Actual Hole Size = 7.874mil
+   Violation between Hole Size Constraint: (7.874mil < 10mil) Via (1378.015mil,1112.715mil) from Top Layer to Bottom Layer Actual Hole Size = 7.874mil
+   Violation between Hole Size Constraint: (7.874mil < 10mil) Via (1378.015mil,1152.085mil) from Top Layer to Bottom Layer Actual Hole Size = 7.874mil
+   Violation between Hole Size Constraint: (7.874mil < 10mil) Via (1378.015mil,1225.115mil) from Top Layer to Bottom Layer Actual Hole Size = 7.874mil
+   Violation between Hole Size Constraint: (7.874mil < 10mil) Via (1378.015mil,1264.485mil) from Top Layer to Bottom Layer Actual Hole Size = 7.874mil
+   Violation between Hole Size Constraint: (7.874mil < 10mil) Via (1387.131mil,873mil) from Top Layer to Bottom Layer Actual Hole Size = 7.874mil
+   Violation between Hole Size Constraint: (7.874mil < 10mil) Via (1398.889mil,404.714mil) from Top Layer to Bottom Layer Actual Hole Size = 7.874mil
+   Violation between Hole Size Constraint: (7.874mil < 10mil) Via (1415.315mil,1620.315mil) from Top Layer to Bottom Layer Actual Hole Size = 7.874mil
+   Violation between Hole Size Constraint: (7.874mil < 10mil) Via (1415.315mil,1659.685mil) from Top Layer to Bottom Layer Actual Hole Size = 7.874mil
+   Violation between Hole Size Constraint: (7.874mil < 10mil) Via (1415.315mil,1707.615mil) from Top Layer to Bottom Layer Actual Hole Size = 7.874mil
+   Violation between Hole Size Constraint: (7.874mil < 10mil) Via (1415.315mil,1746.985mil) from Top Layer to Bottom Layer Actual Hole Size = 7.874mil
+   Violation between Hole Size Constraint: (7.874mil < 10mil) Via (1417.385mil,1112.715mil) from Top Layer to Bottom Layer Actual Hole Size = 7.874mil
+   Violation between Hole Size Constraint: (7.874mil < 10mil) Via (1417.385mil,1152.085mil) from Top Layer to Bottom Layer Actual Hole Size = 7.874mil
+   Violation between Hole Size Constraint: (7.874mil < 10mil) Via (1417.385mil,1225.115mil) from Top Layer to Bottom Layer Actual Hole Size = 7.874mil
+   Violation between Hole Size Constraint: (7.874mil < 10mil) Via (1417.385mil,1264.485mil) from Top Layer to Bottom Layer Actual Hole Size = 7.874mil
+   Violation between Hole Size Constraint: (7.874mil < 10mil) Via (1432.406mil,600.331mil) from Top Layer to Bottom Layer Actual Hole Size = 7.874mil
+   Violation between Hole Size Constraint: (7.874mil < 10mil) Via (1439.197mil,751.414mil) from Top Layer to Bottom Layer Actual Hole Size = 7.874mil
+   Violation between Hole Size Constraint: (7.874mil < 10mil) Via (144.783mil,2111mil) from Top Layer to Bottom Layer Actual Hole Size = 7.874mil
+   Violation between Hole Size Constraint: (7.874mil < 10mil) Via (1440.28mil,842.915mil) from Top Layer to Bottom Layer Actual Hole Size = 7.874mil
+   Violation between Hole Size Constraint: (7.874mil < 10mil) Via (1454.685mil,1620.315mil) from Top Layer to Bottom Layer Actual Hole Size = 7.874mil
+   Violation between Hole Size Constraint: (7.874mil < 10mil) Via (1454.685mil,1659.685mil) from Top Layer to Bottom Layer Actual Hole Size = 7.874mil
+   Violation between Hole Size Constraint: (7.874mil < 10mil) Via (1454.685mil,1707.615mil) from Top Layer to Bottom Layer Actual Hole Size = 7.874mil
+   Violation between Hole Size Constraint: (7.874mil < 10mil) Via (1454.685mil,1746.985mil) from Top Layer to Bottom Layer Actual Hole Size = 7.874mil
+   Violation between Hole Size Constraint: (7.874mil < 10mil) Via (147.48mil,1828.605mil) from Top Layer to Bottom Layer Actual Hole Size = 7.874mil
+   Violation between Hole Size Constraint: (7.874mil < 10mil) Via (1476.721mil,501.425mil) from Top Layer to Bottom Layer Actual Hole Size = 7.874mil
+   Violation between Hole Size Constraint: (7.874mil < 10mil) Via (1493.115mil,1112.715mil) from Top Layer to Bottom Layer Actual Hole Size = 7.874mil
+   Violation between Hole Size Constraint: (7.874mil < 10mil) Via (1493.115mil,1152.085mil) from Top Layer to Bottom Layer Actual Hole Size = 7.874mil
+   Violation between Hole Size Constraint: (7.874mil < 10mil) Via (1493.115mil,1225.115mil) from Top Layer to Bottom Layer Actual Hole Size = 7.874mil
+   Violation between Hole Size Constraint: (7.874mil < 10mil) Via (1493.115mil,1264.485mil) from Top Layer to Bottom Layer Actual Hole Size = 7.874mil
+   Violation between Hole Size Constraint: (7.874mil < 10mil) Via (1499.256mil,462.724mil) from Top Layer to Bottom Layer Actual Hole Size = 7.874mil
+   Violation between Hole Size Constraint: (7.874mil < 10mil) Via (1501.215mil,1620.315mil) from Top Layer to Bottom Layer Actual Hole Size = 7.874mil
+   Violation between Hole Size Constraint: (7.874mil < 10mil) Via (1501.215mil,1659.685mil) from Top Layer to Bottom Layer Actual Hole Size = 7.874mil
+   Violation between Hole Size Constraint: (7.874mil < 10mil) Via (1501.215mil,1707.615mil) from Top Layer to Bottom Layer Actual Hole Size = 7.874mil
+   Violation between Hole Size Constraint: (7.874mil < 10mil) Via (1501.215mil,1746.985mil) from Top Layer to Bottom Layer Actual Hole Size = 7.874mil
+   Violation between Hole Size Constraint: (7.874mil < 10mil) Via (151.818mil,1730.447mil) from Top Layer to Bottom Layer Actual Hole Size = 7.874mil
+   Violation between Hole Size Constraint: (7.874mil < 10mil) Via (1532.485mil,1112.715mil) from Top Layer to Bottom Layer Actual Hole Size = 7.874mil
+   Violation between Hole Size Constraint: (7.874mil < 10mil) Via (1532.485mil,1152.085mil) from Top Layer to Bottom Layer Actual Hole Size = 7.874mil
+   Violation between Hole Size Constraint: (7.874mil < 10mil) Via (1532.485mil,1225.115mil) from Top Layer to Bottom Layer Actual Hole Size = 7.874mil
+   Violation between Hole Size Constraint: (7.874mil < 10mil) Via (1532.485mil,1264.485mil) from Top Layer to Bottom Layer Actual Hole Size = 7.874mil
+   Violation between Hole Size Constraint: (7.874mil < 10mil) Via (1539.719mil,211.782mil) from Top Layer to Bottom Layer Actual Hole Size = 7.874mil
+   Violation between Hole Size Constraint: (7.874mil < 10mil) Via (1540.585mil,1620.315mil) from Top Layer to Bottom Layer Actual Hole Size = 7.874mil
+   Violation between Hole Size Constraint: (7.874mil < 10mil) Via (1540.585mil,1659.685mil) from Top Layer to Bottom Layer Actual Hole Size = 7.874mil
+   Violation between Hole Size Constraint: (7.874mil < 10mil) Via (1540.585mil,1707.615mil) from Top Layer to Bottom Layer Actual Hole Size = 7.874mil
+   Violation between Hole Size Constraint: (7.874mil < 10mil) Via (1540.585mil,1746.985mil) from Top Layer to Bottom Layer Actual Hole Size = 7.874mil
+   Violation between Hole Size Constraint: (7.874mil < 10mil) Via (1562.435mil,837.86mil) from Top Layer to Bottom Layer Actual Hole Size = 7.874mil
+   Violation between Hole Size Constraint: (7.874mil < 10mil) Via (1619.431mil,211.782mil) from Top Layer to Bottom Layer Actual Hole Size = 7.874mil
+   Violation between Hole Size Constraint: (7.874mil < 10mil) Via (1657.037mil,511.136mil) from Top Layer to Bottom Layer Actual Hole Size = 7.874mil
+   Violation between Hole Size Constraint: (7.874mil < 10mil) Via (1686.977mil,1462.551mil) from Top Layer to Bottom Layer Actual Hole Size = 7.874mil
+   Violation between Hole Size Constraint: (7.874mil < 10mil) Via (1686.977mil,1696.13mil) from Top Layer to Bottom Layer Actual Hole Size = 7.874mil
+   Violation between Hole Size Constraint: (7.874mil < 10mil) Via (1694.591mil,1885.104mil) from Top Layer to Bottom Layer Actual Hole Size = 7.874mil
+   Violation between Hole Size Constraint: (7.874mil < 10mil) Via (1701.876mil,1413.823mil) from Top Layer to Bottom Layer Actual Hole Size = 7.874mil
+   Violation between Hole Size Constraint: (7.874mil < 10mil) Via (1702.212mil,633.504mil) from Top Layer to Bottom Layer Actual Hole Size = 7.874mil
+   Violation between Hole Size Constraint: (7.874mil < 10mil) Via (178.659mil,2161.215mil) from Top Layer to Bottom Layer Actual Hole Size = 7.874mil
+   Violation between Hole Size Constraint: (7.874mil < 10mil) Via (1804.45mil,1511.343mil) from Top Layer to Bottom Layer Actual Hole Size = 7.874mil
+   Violation between Hole Size Constraint: (7.874mil < 10mil) Via (1805.637mil,1346.859mil) from Top Layer to Bottom Layer Actual Hole Size = 7.874mil
+   Violation between Hole Size Constraint: (7.874mil < 10mil) Via (1805.637mil,1566.294mil) from Top Layer to Bottom Layer Actual Hole Size = 7.874mil
+   Violation between Hole Size Constraint: (7.874mil < 10mil) Via (1805mil,975mil) from Top Layer to Bottom Layer Actual Hole Size = 7.874mil
+   Violation between Hole Size Constraint: (7.874mil < 10mil) Via (1806.488mil,1702.765mil) from Top Layer to Bottom Layer Actual Hole Size = 7.874mil
+   Violation between Hole Size Constraint: (7.874mil < 10mil) Via (1810.331mil,1878.348mil) from Top Layer to Bottom Layer Actual Hole Size = 7.874mil
+   Violation between Hole Size Constraint: (7.874mil < 10mil) Via (1832.669mil,1540.048mil) from Top Layer to Bottom Layer Actual Hole Size = 7.874mil
+   Violation between Hole Size Constraint: (7.874mil < 10mil) Via (1833.761mil,1602.535mil) from Top Layer to Bottom Layer Actual Hole Size = 7.874mil
+   Violation between Hole Size Constraint: (7.874mil < 10mil) Via (1846.005mil,1498.515mil) from Top Layer to Bottom Layer Actual Hole Size = 7.874mil
+   Violation between Hole Size Constraint: (7.874mil < 10mil) Via (1851.26mil,1564.291mil) from Top Layer to Bottom Layer Actual Hole Size = 7.874mil
+   Violation between Hole Size Constraint: (7.874mil < 10mil) Via (1875mil,838.498mil) from Top Layer to Bottom Layer Actual Hole Size = 7.874mil
+   Violation between Hole Size Constraint: (7.874mil < 10mil) Via (1876.799mil,609.921mil) from Top Layer to Bottom Layer Actual Hole Size = 7.874mil
+   Violation between Hole Size Constraint: (7.874mil < 10mil) Via (1885.316mil,652.331mil) from Top Layer to Bottom Layer Actual Hole Size = 7.874mil
+   Violation between Hole Size Constraint: (7.874mil < 10mil) Via (1891.299mil,1216.003mil) from Top Layer to Bottom Layer Actual Hole Size = 7.874mil
+   Violation between Hole Size Constraint: (7.874mil < 10mil) Via (1899.154mil,1424.817mil) from Top Layer to Bottom Layer Actual Hole Size = 7.874mil
+   Violation between Hole Size Constraint: (7.874mil < 10mil) Via (1907.929mil,861mil) from Top Layer to Bottom Layer Actual Hole Size = 7.874mil
+   Violation between Hole Size Constraint: (7.874mil < 10mil) Via (1922.929mil,1223.405mil) from Top Layer to Bottom Layer Actual Hole Size = 7.874mil
+   Violation between Hole Size Constraint: (7.874mil < 10mil) Via (1930.322mil,395.006mil) from Top Layer to Bottom Layer Actual Hole Size = 7.874mil
+   Violation between Hole Size Constraint: (7.874mil < 10mil) Via (1935.429mil,1792.222mil) from Top Layer to Bottom Layer Actual Hole Size = 7.874mil
+   Violation between Hole Size Constraint: (7.874mil < 10mil) Via (1947.929mil,653mil) from Top Layer to Bottom Layer Actual Hole Size = 7.874mil
+   Violation between Hole Size Constraint: (7.874mil < 10mil) Via (1948.903mil,1037.354mil) from Top Layer to Bottom Layer Actual Hole Size = 7.874mil
+   Violation between Hole Size Constraint: (7.874mil < 10mil) Via (1957.57mil,863.803mil) from Top Layer to Bottom Layer Actual Hole Size = 7.874mil
+   Violation between Hole Size Constraint: (7.874mil < 10mil) Via (1962.283mil,1152.085mil) from Top Layer to Bottom Layer Actual Hole Size = 7.874mil
+   Violation between Hole Size Constraint: (7.874mil < 10mil) Via (2003.903mil,1780.866mil) from Top Layer to Bottom Layer Actual Hole Size = 7.874mil
+   Violation between Hole Size Constraint: (7.874mil < 10mil) Via (2004.578mil,1835.618mil) from Top Layer to Bottom Layer Actual Hole Size = 7.874mil
+   Violation between Hole Size Constraint: (7.874mil < 10mil) Via (2006.261mil,1890.447mil) from Top Layer to Bottom Layer Actual Hole Size = 7.874mil
+   Violation between Hole Size Constraint: (7.874mil < 10mil) Via (2025.472mil,1856.695mil) from Top Layer to Bottom Layer Actual Hole Size = 7.874mil
+   Violation between Hole Size Constraint: (7.874mil < 10mil) Via (2036.952mil,1540.048mil) from Top Layer to Bottom Layer Actual Hole Size = 7.874mil
+   Violation between Hole Size Constraint: (7.874mil < 10mil) Via (2036.952mil,1796.196mil) from Top Layer to Bottom Layer Actual Hole Size = 7.874mil
+   Violation between Hole Size Constraint: (7.874mil < 10mil) Via (2044.215mil,1566.294mil) from Top Layer to Bottom Layer Actual Hole Size = 7.874mil
+   Violation between Hole Size Constraint: (7.874mil < 10mil) Via (2046.666mil,1513.1mil) from Top Layer to Bottom Layer Actual Hole Size = 7.874mil
+   Violation between Hole Size Constraint: (7.874mil < 10mil) Via (2061.557mil,1602.21mil) from Top Layer to Bottom Layer Actual Hole Size = 7.874mil
+   Violation between Hole Size Constraint: (7.874mil < 10mil) Via (2065.434mil,1495.358mil) from Top Layer to Bottom Layer Actual Hole Size = 7.874mil
+   Violation between Hole Size Constraint: (7.874mil < 10mil) Via (2067.778mil,1632.185mil) from Top Layer to Bottom Layer Actual Hole Size = 7.874mil
+   Violation between Hole Size Constraint: (7.874mil < 10mil) Via (2087.106mil,1679.748mil) from Top Layer to Bottom Layer Actual Hole Size = 7.874mil
+   Violation between Hole Size Constraint: (7.874mil < 10mil) Via (2112.516mil,608.315mil) from Top Layer to Bottom Layer Actual Hole Size = 7.874mil
+   Violation between Hole Size Constraint: (7.874mil < 10mil) Via (2114.484mil,847.999mil) from Top Layer to Bottom Layer Actual Hole Size = 7.874mil
+   Violation between Hole Size Constraint: (7.874mil < 10mil) Via (2133.98mil,1453.112mil) from Top Layer to Bottom Layer Actual Hole Size = 7.874mil
+   Violation between Hole Size Constraint: (7.874mil < 10mil) Via (2135.216mil,570.038mil) from Top Layer to Bottom Layer Actual Hole Size = 7.874mil
+   Violation between Hole Size Constraint: (7.874mil < 10mil) Via (2136.516mil,428.038mil) from Top Layer to Bottom Layer Actual Hole Size = 7.874mil
+   Violation between Hole Size Constraint: (7.874mil < 10mil) Via (2165mil,1303.633mil) from Top Layer to Bottom Layer Actual Hole Size = 7.874mil
+   Violation between Hole Size Constraint: (7.874mil < 10mil) Via (2166.774mil,1013.504mil) from Top Layer to Bottom Layer Actual Hole Size = 7.874mil
+   Violation between Hole Size Constraint: (7.874mil < 10mil) Via (2177.728mil,1983.016mil) from Top Layer to Bottom Layer Actual Hole Size = 7.874mil
+   Violation between Hole Size Constraint: (7.874mil < 10mil) Via (2182.755mil,733.346mil) from Top Layer to Bottom Layer Actual Hole Size = 7.874mil
+   Violation between Hole Size Constraint: (7.874mil < 10mil) Via (2185mil,1420mil) from Top Layer to Bottom Layer Actual Hole Size = 7.874mil
+   Violation between Hole Size Constraint: (7.874mil < 10mil) Via (2199.193mil,1629.903mil) from Top Layer to Bottom Layer Actual Hole Size = 7.874mil
+   Violation between Hole Size Constraint: (7.874mil < 10mil) Via (2231.102mil,1078.465mil) from Top Layer to Bottom Layer Actual Hole Size = 7.874mil
+   Violation between Hole Size Constraint: (7.874mil < 10mil) Via (2238.405mil,1248.214mil) from Top Layer to Bottom Layer Actual Hole Size = 7.874mil
+   Violation between Hole Size Constraint: (7.874mil < 10mil) Via (2238.405mil,471.425mil) from Top Layer to Bottom Layer Actual Hole Size = 7.874mil
+   Violation between Hole Size Constraint: (7.874mil < 10mil) Via (2310mil,1095.039mil) from Top Layer to Bottom Layer Actual Hole Size = 7.874mil
+   Violation between Hole Size Constraint: (7.874mil < 10mil) Via (2310mil,1415.306mil) from Top Layer to Bottom Layer Actual Hole Size = 7.874mil
+   Violation between Hole Size Constraint: (7.874mil < 10mil) Via (2328mil,719.562mil) from Top Layer to Bottom Layer Actual Hole Size = 7.874mil
+   Violation between Hole Size Constraint: (7.874mil < 10mil) Via (2330mil,1662mil) from Top Layer to Bottom Layer Actual Hole Size = 7.874mil
+   Violation between Hole Size Constraint: (7.874mil < 10mil) Via (239.416mil,2086.235mil) from Top Layer to Bottom Layer Actual Hole Size = 7.874mil
+   Violation between Hole Size Constraint: (7.874mil < 10mil) Via (239.416mil,2127.905mil) from Top Layer to Bottom Layer Actual Hole Size = 7.874mil
+   Violation between Hole Size Constraint: (7.874mil < 10mil) Via (246.468mil,1552.677mil) from Top Layer to Bottom Layer Actual Hole Size = 7.874mil
+   Violation between Hole Size Constraint: (7.874mil < 10mil) Via (246.468mil,1992.275mil) from Top Layer to Bottom Layer Actual Hole Size = 7.874mil
+   Violation between Hole Size Constraint: (7.874mil < 10mil) Via (251.144mil,732.48mil) from Top Layer to Bottom Layer Actual Hole Size = 7.874mil
+   Violation between Hole Size Constraint: (7.874mil < 10mil) Via (260.251mil,2107.07mil) from Top Layer to Bottom Layer Actual Hole Size = 7.874mil
+   Violation between Hole Size Constraint: (7.874mil < 10mil) Via (266.997mil,1552.677mil) from Top Layer to Bottom Layer Actual Hole Size = 7.874mil
+   Violation between Hole Size Constraint: (7.874mil < 10mil) Via (266.997mil,1773.83mil) from Top Layer to Bottom Layer Actual Hole Size = 7.874mil
+   Violation between Hole Size Constraint: (7.874mil < 10mil) Via (270.463mil,1816.348mil) from Top Layer to Bottom Layer Actual Hole Size = 7.874mil
+   Violation between Hole Size Constraint: (7.874mil < 10mil) Via (281.086mil,2086.235mil) from Top Layer to Bottom Layer Actual Hole Size = 7.874mil
+   Violation between Hole Size Constraint: (7.874mil < 10mil) Via (281.086mil,2127.905mil) from Top Layer to Bottom Layer Actual Hole Size = 7.874mil
+   Violation between Hole Size Constraint: (7.874mil < 10mil) Via (287.288mil,281.457mil) from Top Layer to Bottom Layer Actual Hole Size = 7.874mil
+   Violation between Hole Size Constraint: (7.874mil < 10mil) Via (293.669mil,732.48mil) from Top Layer to Bottom Layer Actual Hole Size = 7.874mil
+   Violation between Hole Size Constraint: (7.874mil < 10mil) Via (334.488mil,1120mil) from Top Layer to Bottom Layer Actual Hole Size = 7.874mil
+   Violation between Hole Size Constraint: (7.874mil < 10mil) Via (337.454mil,281.457mil) from Top Layer to Bottom Layer Actual Hole Size = 7.874mil
+   Violation between Hole Size Constraint: (7.874mil < 10mil) Via (340.381mil,732.48mil) from Top Layer to Bottom Layer Actual Hole Size = 7.874mil
+   Violation between Hole Size Constraint: (7.874mil < 10mil) Via (355.797mil,1120.934mil) from Top Layer to Bottom Layer Actual Hole Size = 7.874mil
+   Violation between Hole Size Constraint: (7.874mil < 10mil) Via (385.191mil,1474.406mil) from Top Layer to Bottom Layer Actual Hole Size = 7.874mil
+   Violation between Hole Size Constraint: (7.874mil < 10mil) Via (391.833mil,281.457mil) from Top Layer to Bottom Layer Actual Hole Size = 7.874mil
+   Violation between Hole Size Constraint: (7.874mil < 10mil) Via (405.033mil,1060.775mil) from Top Layer to Bottom Layer Actual Hole Size = 7.874mil
+   Violation between Hole Size Constraint: (7.874mil < 10mil) Via (465.841mil,1784.99mil) from Top Layer to Bottom Layer Actual Hole Size = 7.874mil
+   Violation between Hole Size Constraint: (7.874mil < 10mil) Via (466.669mil,1587.126mil) from Top Layer to Bottom Layer Actual Hole Size = 7.874mil
+   Violation between Hole Size Constraint: (7.874mil < 10mil) Via (503.305mil,1112.715mil) from Top Layer to Bottom Layer Actual Hole Size = 7.874mil
+   Violation between Hole Size Constraint: (7.874mil < 10mil) Via (527.694mil,1045.012mil) from Top Layer to Bottom Layer Actual Hole Size = 7.874mil
+   Violation between Hole Size Constraint: (7.874mil < 10mil) Via (541.628mil,1110.76mil) from Top Layer to Bottom Layer Actual Hole Size = 7.874mil
+   Violation between Hole Size Constraint: (7.874mil < 10mil) Via (565.421mil,1389.784mil) from Top Layer to Bottom Layer Actual Hole Size = 7.874mil
+   Violation between Hole Size Constraint: (7.874mil < 10mil) Via (590.472mil,1752.74mil) from Top Layer to Bottom Layer Actual Hole Size = 7.874mil
+   Violation between Hole Size Constraint: (7.874mil < 10mil) Via (590.472mil,1786.358mil) from Top Layer to Bottom Layer Actual Hole Size = 7.874mil
+   Violation between Hole Size Constraint: (7.874mil < 10mil) Via (623.472mil,1753.74mil) from Top Layer to Bottom Layer Actual Hole Size = 7.874mil
+   Violation between Hole Size Constraint: (7.874mil < 10mil) Via (623.946mil,648.031mil) from Top Layer to Bottom Layer Actual Hole Size = 7.874mil
+   Violation between Hole Size Constraint: (7.874mil < 10mil) Via (634.279mil,1876.683mil) from Top Layer to Bottom Layer Actual Hole Size = 7.874mil
+   Violation between Hole Size Constraint: (7.874mil < 10mil) Via (645.982mil,1554.587mil) from Top Layer to Bottom Layer Actual Hole Size = 7.874mil
+   Violation between Hole Size Constraint: (7.874mil < 10mil) Via (653.318mil,441.55mil) from Top Layer to Bottom Layer Actual Hole Size = 7.874mil
+   Violation between Hole Size Constraint: (7.874mil < 10mil) Via (653.318mil,611.441mil) from Top Layer to Bottom Layer Actual Hole Size = 7.874mil
+   Violation between Hole Size Constraint: (7.874mil < 10mil) Via (66.105mil,1396.988mil) from Top Layer to Bottom Layer Actual Hole Size = 7.874mil
+   Violation between Hole Size Constraint: (7.874mil < 10mil) Via (66.105mil,1419.803mil) from Top Layer to Bottom Layer Actual Hole Size = 7.874mil
+   Violation between Hole Size Constraint: (7.874mil < 10mil) Via (685.35mil,2312.097mil) from Top Layer to Bottom Layer Actual Hole Size = 7.874mil
+   Violation between Hole Size Constraint: (7.874mil < 10mil) Via (690.776mil,645.681mil) from Top Layer to Bottom Layer Actual Hole Size = 7.874mil
+   Violation between Hole Size Constraint: (7.874mil < 10mil) Via (712.85mil,1554.587mil) from Top Layer to Bottom Layer Actual Hole Size = 7.874mil
+   Violation between Hole Size Constraint: (7.874mil < 10mil) Via (720.347mil,635.839mil) from Top Layer to Bottom Layer Actual Hole Size = 7.874mil
+   Violation between Hole Size Constraint: (7.874mil < 10mil) Via (725mil,1838.002mil) from Top Layer to Bottom Layer Actual Hole Size = 7.874mil
+   Violation between Hole Size Constraint: (7.874mil < 10mil) Via (73.979mil,1603.386mil) from Top Layer to Bottom Layer Actual Hole Size = 7.874mil
+   Violation between Hole Size Constraint: (7.874mil < 10mil) Via (734.62mil,336.478mil) from Top Layer to Bottom Layer Actual Hole Size = 7.874mil
+   Violation between Hole Size Constraint: (7.874mil < 10mil) Via (74.294mil,1579.252mil) from Top Layer to Bottom Layer Actual Hole Size = 7.874mil
+   Violation between Hole Size Constraint: (7.874mil < 10mil) Via (750.591mil,2008.253mil) from Top Layer to Bottom Layer Actual Hole Size = 7.874mil
+   Violation between Hole Size Constraint: (7.874mil < 10mil) Via (756.496mil,1838.002mil) from Top Layer to Bottom Layer Actual Hole Size = 7.874mil
+   Violation between Hole Size Constraint: (7.874mil < 10mil) Via (792.633mil,538.898mil) from Top Layer to Bottom Layer Actual Hole Size = 7.874mil
+   Violation between Hole Size Constraint: (7.874mil < 10mil) Via (792.633mil,748.898mil) from Top Layer to Bottom Layer Actual Hole Size = 7.874mil
+   Violation between Hole Size Constraint: (7.874mil < 10mil) Via (810.659mil,1847mil) from Top Layer to Bottom Layer Actual Hole Size = 7.874mil
+   Violation between Hole Size Constraint: (7.874mil < 10mil) Via (829.659mil,1819.301mil) from Top Layer to Bottom Layer Actual Hole Size = 7.874mil
+   Violation between Hole Size Constraint: (7.874mil < 10mil) Via (843.11mil,1848.447mil) from Top Layer to Bottom Layer Actual Hole Size = 7.874mil
+   Violation between Hole Size Constraint: (7.874mil < 10mil) Via (862.712mil,200.715mil) from Top Layer to Bottom Layer Actual Hole Size = 7.874mil
+   Violation between Hole Size Constraint: (7.874mil < 10mil) Via (865.038mil,1821.331mil) from Top Layer to Bottom Layer Actual Hole Size = 7.874mil
+   Violation between Hole Size Constraint: (7.874mil < 10mil) Via (870.21mil,674.256mil) from Top Layer to Bottom Layer Actual Hole Size = 7.874mil
+   Violation between Hole Size Constraint: (7.874mil < 10mil) Via (872.108mil,1327.618mil) from Top Layer to Bottom Layer Actual Hole Size = 7.874mil
+   Violation between Hole Size Constraint: (7.874mil < 10mil) Via (886.742mil,568.243mil) from Top Layer to Bottom Layer Actual Hole Size = 7.874mil
+   Violation between Hole Size Constraint: (7.874mil < 10mil) Via (886.742mil,634.055mil) from Top Layer to Bottom Layer Actual Hole Size = 7.874mil
+   Violation between Hole Size Constraint: (7.874mil < 10mil) Via (886.951mil,1846.555mil) from Top Layer to Bottom Layer Actual Hole Size = 7.874mil
+   Violation between Hole Size Constraint: (7.874mil < 10mil) Via (90.59mil,2264.444mil) from Top Layer to Bottom Layer Actual Hole Size = 7.874mil
+   Violation between Hole Size Constraint: (7.874mil < 10mil) Via (910.821mil,1962.498mil) from Top Layer to Bottom Layer Actual Hole Size = 7.874mil
+   Violation between Hole Size Constraint: (7.874mil < 10mil) Via (934.763mil,211.782mil) from Top Layer to Bottom Layer Actual Hole Size = 7.874mil
+   Violation between Hole Size Constraint: (7.874mil < 10mil) Via (950.173mil,482.585mil) from Top Layer to Bottom Layer Actual Hole Size = 7.874mil
+   Violation between Hole Size Constraint: (7.874mil < 10mil) Via (950.892mil,1616.498mil) from Top Layer to Bottom Layer Actual Hole Size = 7.874mil
+   Violation between Hole Size Constraint: (7.874mil < 10mil) Via (979.679mil,2180.715mil) from Top Layer to Bottom Layer Actual Hole Size = 7.874mil
+   Violation between Hole Size Constraint: (7.874mil < 10mil) Via (994.81mil,636.13mil) from Top Layer to Bottom Layer Actual Hole Size = 7.874mil
+Rule Violations :183
+
+Processing Rule : Hole To Hole Clearance (Gap=10mil) (All),(All)
+   Violation between Hole To Hole Clearance Constraint: (2.259mil < 10mil) Between Via (2174.14mil,387.245mil) from Top Layer to Bottom Layer And Via (2186.245mil,394.415mil) from Top Layer to Bottom Layer 
+Rule Violations :1
+
+Processing Rule : Minimum Solder Mask Sliver (Gap=2mil) (All),(All)
+Rule Violations :0
+
+Processing Rule : Silk To Solder Mask (Clearance=2mil) (IsPad),(All)
+   Violation between Silk To Solder Mask Clearance Constraint: (1.903mil < 2mil) Between Arc (681.415mil,1590.724mil) on Top Overlay And Pad C4-1(712.85mil,1591.713mil) on Top Layer [Top Overlay] to [Top Solder] clearance [1.903mil]
+   Violation between Silk To Solder Mask Clearance Constraint: (1.918mil < 2mil) Between Pad U1-12(1879.938mil,1475.384mil) on Top Layer And Text "TP9" (1786.168mil,1442.555mil) on Top Overlay [Top Overlay] to [Top Solder] clearance [1.918mil]
+Rule Violations :2
+
+Processing Rule : Silk to Silk (Clearance=0mil) (All),(All)
+Rule Violations :0
+
+Processing Rule : Net Antennae (Tolerance=0mil) (All)
+   Violation between Net Antennae: Track (1439.59mil,892.843mil)(1724.118mil,608.315mil) on Bottom Layer 
+   Violation between Net Antennae: Track (1612.502mil,631.737mil)(1612.502mil,708.866mil) on Top Layer 
+Rule Violations :2
+
+Processing Rule : Board Clearance Constraint (Gap=0mil) (All)
+   Violation between Board Outline Clearance(Outline Edge): (16.893mil < 20mil) Between Board Edge And Pad J3-S5(66.105mil,1538.406mil) on Top Layer 
+   Violation between Board Outline Clearance(Outline Edge): (16.893mil < 20mil) Between Board Edge And Pad J3-S6(66.105mil,1464.587mil) on Top Layer 
+   Violation between Board Outline Clearance(Outline Edge): (10.048mil < 20mil) Between Board Edge And Pad J4-MT1(1784.79mil,76.976mil) on Top Layer 
+   Violation between Board Outline Clearance(Outline Edge): (10.048mil < 20mil) Between Board Edge And Pad J4-MT2(2206.05mil,76.976mil) on Top Layer 
+   Violation between Board Outline Clearance(Outline Edge): (9.273mil < 20mil) Between Board Edge And Pad J7-MT1(1292.24mil,76.201mil) on Top Layer 
+   Violation between Board Outline Clearance(Outline Edge): (9.273mil < 20mil) Between Board Edge And Pad J7-MT2(1713.499mil,76.201mil) on Top Layer 
+   Violation between Board Outline Clearance(Outline Edge): (19.71mil < 20mil) Between Board Edge And Pad JP2-1(790.659mil,2322.496mil) on Top Layer 
+   Violation between Board Outline Clearance(Outline Edge): (19.71mil < 20mil) Between Board Edge And Pad JP2-2(858.159mil,2322.496mil) on Top Layer 
+   Violation between Board Outline Clearance(Outline Edge): (6.476mil < 10mil) Between Board Edge And Text ".NetName" (2355.729mil,546.778mil) on Top Overlay 
+   Violation between Board Outline Clearance(Outline Edge): (8.323mil < 10mil) Between Board Edge And Text "FD2" (8.323mil,1803.878mil) on Top Overlay 
+   Violation between Board Outline Clearance(Outline Edge): (0.358mil < 10mil) Between Board Edge And Text "JP15" (0.357mil,1855.408mil) on Top Overlay 
+   Violation between Board Outline Clearance(Outline Edge): (7.49mil < 10mil) Between Board Edge And Track (1036.591mil,2257.977mil)(1036.591mil,2297.347mil) on Top Overlay 
+   Violation between Board Outline Clearance(Outline Edge): (9.208mil < 10mil) Between Board Edge And Track (155.164mil,2350.497mil)(179.164mil,2350.497mil) on Top Overlay 
+   Violation between Board Outline Clearance(Outline Edge): (8.977mil < 10mil) Between Board Edge And Track (2350.728mil,669.567mil)(2350.728mil,769.567mil) on Top Overlay 
+   Violation between Board Outline Clearance(Outline Edge): (Collision < 10mil) Between Board Edge And Track (-31.574mil,348.812mil)(-4.081mil,455.118mil) on Top Overlay 
+   Violation between Board Outline Clearance(Outline Edge): (Collision < 10mil) Between Board Edge And Track (-31.64mil,230.709mil)(-31.64mil,348.819mil) on Top Overlay 
+   Violation between Board Outline Clearance(Outline Edge): (Collision < 10mil) Between Board Edge And Track (-31.64mil,230.709mil)(76.628mil,230.709mil) on Top Overlay 
+   Violation between Board Outline Clearance(Outline Edge): (9.709mil < 10mil) Between Board Edge And Track (313.251mil,2349.997mil)(337.251mil,2349.997mil) on Top Overlay 
+   Violation between Board Outline Clearance(Outline Edge): (Collision < 10mil) Between Board Edge And Track (-4.081mil,455.118mil)(-4.081mil,809.449mil) on Top Overlay 
+   Violation between Board Outline Clearance(Outline Edge): (Collision < 10mil) Between Board Edge And Track (-4.081mil,809.449mil)(76.628mil,809.449mil) on Top Overlay 
+   Violation between Board Outline Clearance(Outline Edge): (9.708mil < 10mil) Between Board Edge And Track (454.669mil,2349.998mil)(478.669mil,2349.998mil) on Top Overlay 
+   Violation between Board Outline Clearance(Outline Edge): (2.772mil < 10mil) Between Board Edge And Track (804.409mil,2355.496mil)(843.779mil,2355.496mil) on Top Overlay 
+   Violation between Board Outline Clearance(Outline Edge): (6.519mil < 10mil) Between Board Edge And Track (9.018mil,1353.858mil)(20.042mil,1353.858mil) on Top Overlay 
+   Violation between Board Outline Clearance(Outline Edge): (6.519mil < 10mil) Between Board Edge And Track (9.018mil,1353.858mil)(9.018mil,1424.921mil) on Top Overlay 
+   Violation between Board Outline Clearance(Outline Edge): (6.519mil < 10mil) Between Board Edge And Track (9.018mil,1578.071mil)(9.018mil,1649.134mil) on Top Overlay 
+   Violation between Board Outline Clearance(Outline Edge): (6.519mil < 10mil) Between Board Edge And Track (9.018mil,1649.134mil)(20.042mil,1649.134mil) on Top Overlay 
+Rule Violations :26
+
+Processing Rule : Board Clearance Constraint (Gap=0mil) (OnLayer('GroundPlane')OR OnLayer('PowerPlane'))
+Rule Violations :0
+
+Processing Rule : Height Constraint (Min=0mil) (Max=1000mil) (Prefered=500mil) (All)
+Rule Violations :0
+
+
+Violations Detected : 460
+Waived Violations : 0
+Time Elapsed        : 00:00:02

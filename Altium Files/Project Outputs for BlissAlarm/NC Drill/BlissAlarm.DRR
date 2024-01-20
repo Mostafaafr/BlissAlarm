@@ -1,0 +1,23 @@
+----------------------------------------------------------------------------------------------------------------------------------
+NCDrill File Report For: BlissAlarm.PcbDoc   10/17/2023  1:41:16 AM
+----------------------------------------------------------------------------------------------------------------------------------
+
+Layer Pair : Top Layer to Bottom Layer
+ASCII RoundHoles File : BlissAlarm-RoundHoles.TXT
+ASCII SlotHoles File : BlissAlarm-SlotHoles.TXT
+
+Tool       Hole Size               Hole Tolerance               Hole Type       Hole Count   Plated         Tool Travel
+----------------------------------------------------------------------------------------------------------------------------------
+T1      0.2mm (8mil)                                              Round             241       PTH        730.10mm (28.74inch)
+T2      0.3mm (12mil)                                             Round             28        PTH        254.43mm (10.02inch)
+T3      0.381mm (15mil)                                           Round             1         PTH        0.00mm (0.00inch)
+T4      0.65mm (26mil)                                            Slot              2         PTH        10.52mm (0.41inch)
+T5      0.686mm (27mil)                                           Round             2         PTH        34.96mm (1.38inch)
+T6      0.7mm (28mil)                                             Slot              2         PTH        17.68mm (0.70inch)
+T7      2.7mm (106mil)                                            Round             4         PTH        164.63mm (6.48inch)
+T8      0.9mm (35mil)                                             Round             1         NPTH       0.00mm (0.00inch)
+T9      0.9mm (35mil)                                             Slot              1         NPTH       0.80mm (0.03inch)
+----------------------------------------------------------------------------------------------------------------------------------
+Totals                                                                              282
+
+Total Processing Time (hh:mm:ss) : 00:00:01
